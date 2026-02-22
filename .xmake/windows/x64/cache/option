@@ -1,0 +1,52 @@
+{
+    skyrim_se = {
+        __sourceinfo_defines = {
+            ["ENABLE_SKYRIM_SE=1"] = {
+                file = [[.\lib\commonlibsse-ng\xmake.lua]],
+                line = 39
+            }
+        },
+        showmenu = true,
+        __sourceinfo_description = {
+            ["Enable runtime support for Skyrim SE"] = {
+                file = [[.\lib\commonlibsse-ng\xmake.lua]],
+                line = 38
+            },
+            ["Build for Skyrim Special Edition"] = {
+                file = [[.\xmake.lua]],
+                line = 18
+            }
+        },
+        default = false,
+        __sourceinfo_showmenu = { },
+        __scriptdir = [[D:\SKSE-Codebase\projects\LingeringSubtitlesFix\lib\commonlibsse-ng]],
+        description = "Build for Skyrim Special Edition",
+        defines = "ENABLE_SKYRIM_SE=1",
+        __sourceinfo_default = { }
+    },
+    skyrim_ae = {
+        __sourceinfo_defines = {
+            ["ENABLE_SKYRIM_AE=1"] = {
+                file = [[.\lib\commonlibsse-ng\xmake.lua]],
+                line = 45
+            }
+        },
+        showmenu = true,
+        __sourceinfo_description = {
+            ["Build for Skyrim Anniversary Edition"] = {
+                file = [[.\xmake.lua]],
+                line = 24
+            },
+            ["Enable runtime support for Skyrim AE"] = {
+                file = [[.\lib\commonlibsse-ng\xmake.lua]],
+                line = 44
+            }
+        },
+        default = false,
+        __sourceinfo_showmenu = { },
+        __scriptdir = [[D:\SKSE-Codebase\projects\LingeringSubtitlesFix\lib\commonlibsse-ng]],
+        description = "Build for Skyrim Anniversary Edition",
+        defines = "ENABLE_SKYRIM_AE=1",
+        __sourceinfo_default = { }
+    }
+}

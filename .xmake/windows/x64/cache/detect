@@ -1,0 +1,170 @@
+{
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::directxmath_b43cee1705a040bdb171c586b0ad9685_release_2024.02_external"] = {
+            version = "2024.02",
+            sysincludedirs = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxmath\2024.02\b43cee1705a040bdb171c586b0ad9685\include\directxmath]]
+            },
+            license = "MIT"
+        },
+        ["xmake::spdlog_732e1fb9578844feb56212d04a5902e7_release_v1.15.2_external"] = {
+            version = "v1.15.2",
+            links = {
+                "spdlog"
+            },
+            linkdirs = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7\lib]]
+            },
+            static = true,
+            license = "MIT",
+            libfiles = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7\lib\spdlog.lib]]
+            },
+            defines = {
+                "SPDLOG_COMPILED_LIB",
+                "SPDLOG_USE_STD_FORMAT",
+                "SPDLOG_WCHAR_TO_UTF8_SUPPORT"
+            },
+            sysincludedirs = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7\include]]
+            }
+        },
+        ["xmake::directxtk_9f8d620aace146e28fd114c01f5af23a_release_24.2.0_external"] = {
+            version = "24.2.0",
+            links = {
+                "DirectXTK"
+            },
+            linkdirs = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a\lib]]
+            },
+            sysincludedirs = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a\include]]
+            },
+            libfiles = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a\lib\DirectXTK.lib]]
+            },
+            static = true
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolsh = {
+        ["link.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe]]
+    },
+    find_program_fetch_package_system = {
+        ninja = [[D:\SKSE-Codebase\tools\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja]],
+        cmake = [[C:\Program Files\CMake\bin\cmake]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolmrc = {
+        ["rc.exe"] = [[C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe]]
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files\\CMake\\bin\\cmake"] = "4.2.3",
+        ["D:\\SKSE-Codebase\\tools\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja"] = "1.12.1"
+    },
+    find_program = {
+        ["7z"] = [[D:\SKSE-Codebase\tools\xmake\winenv\bin\7z]],
+        git = [[C:\Program Files\Git\cmd\git.exe]],
+        gzip = false,
+        ["C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe"] = [[C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe]],
+        ["cl.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]],
+        ["D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]],
+        nim = false
+    },
+    find_program_fetch_package_xmake = {
+        ninja = false,
+        cmake = false
+    },
+    ["core.tools.rc.has_flags"] = {
+        ["C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe_10.0.10011.16384"] = {
+            ["-r"] = true,
+            ["-x"] = true,
+            ["-u"] = true,
+            ["-v"] = true,
+            ["-g2"] = true,
+            ["-sl"] = true,
+            ["-d"] = true,
+            ["-c"] = true,
+            ["-8"] = true,
+            ["-nologo"] = true,
+            ["-ln"] = true,
+            ["-g"] = true,
+            ["-q"] = true,
+            ["-fo"] = true,
+            ["-l"] = true,
+            ["-y"] = true,
+            ["-gn"] = true,
+            ["-i"] = true,
+            ["-w"] = true,
+            ["-n"] = true,
+            ["-fm"] = true,
+            ["-g1"] = true
+        }
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4200"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/diagnostics:caret"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_-DNDEBUG"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4324"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5027"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/cgthreads8"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4061"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/fp:contract"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/external:W0"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4371"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5053"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4711"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4265"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4625"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/permissive-"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5026"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5045"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4582"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/EHsc"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4514"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5082"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/bigobj"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4201"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4820"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_/Zi"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/we4715"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4068"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_cl_sourceDependencies"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_/FS"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx__-nologo_-O2"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe_10.0.10011.16384_mrc_mrcflags__-nologo"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4264"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/Zc:preprocessor"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4005"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/Zc:enumTypes"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4626"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/guard:cf-"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4686"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5220"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4623"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4710"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/fp:except-"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_-std:c++latest"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4583"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5204"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd4266"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/wd5105"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxxflags_-nologo_/Zc:templateScope"] = true,
+        ["windows_x64_D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35222_cxx_cxflags_-nologo_-std:c++23"] = false
+    },
+    find_programver = {
+        ["D:\\SKSE-Codebase\\tools\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe"] = "19.44.35222",
+        ["C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe"] = "10.0.10011.16384"
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolar = {
+        ["link.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[D:\SKSE-Codebase\tools\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]]
+    }
+}

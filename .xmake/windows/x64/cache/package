@@ -1,0 +1,63 @@
+{
+    spdlog = {
+        sysincludedirs = [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7\include]],
+        linkdirs = [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7\lib]],
+        installdir = [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7]],
+        libfiles = [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7\lib\spdlog.lib]],
+        license = "MIT",
+        envs = {
+            PATH = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\n\ninja\1.12.1\10253c39aca14760ae4382272800b680\bin]],
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\c\cmake\4.2.3\10253c39aca14760ae4382272800b680\bin]]
+            }
+        },
+        version = "v1.15.2",
+        __requireconfs = {
+            configs = {
+                wchar = true,
+                std_format = true,
+                header_only = false
+            }
+        },
+        static = true,
+        __requirestr = "spdlog",
+        links = "spdlog",
+        defines = {
+            "SPDLOG_COMPILED_LIB",
+            "SPDLOG_USE_STD_FORMAT",
+            "SPDLOG_WCHAR_TO_UTF8_SUPPORT"
+        },
+        __enabled = true
+    },
+    directxmath = {
+        envs = {
+            PATH = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\n\ninja\1.12.1\10253c39aca14760ae4382272800b680\bin]],
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\c\cmake\4.2.3\10253c39aca14760ae4382272800b680\bin]]
+            }
+        },
+        __requirestr = "directxmath",
+        version = "2024.02",
+        sysincludedirs = [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxmath\2024.02\b43cee1705a040bdb171c586b0ad9685\include\directxmath]],
+        installdir = [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxmath\2024.02\b43cee1705a040bdb171c586b0ad9685]],
+        __enabled = true,
+        license = "MIT"
+    },
+    directxtk = {
+        sysincludedirs = [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a\include]],
+        libfiles = [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a\lib\DirectXTK.lib]],
+        installdir = [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a]],
+        version = "24.2.0",
+        __enabled = true,
+        static = true,
+        linkdirs = [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a\lib]],
+        links = "DirectXTK",
+        envs = {
+            PATH = {
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\n\ninja\1.12.1\10253c39aca14760ae4382272800b680\bin]],
+                [[D:\SKSE-Codebase\.xmake\.xmake\packages\c\cmake\4.2.3\10253c39aca14760ae4382272800b680\bin]]
+            }
+        },
+        __requirestr = "directxtk"
+    }
+}

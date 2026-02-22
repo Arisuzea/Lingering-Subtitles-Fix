@@ -1,0 +1,14 @@
+{
+    mtimes = {
+        ["lib\\commonlibsse-ng\\xmake.lua"] = 1771412559,
+        ["lib\\commonlibsse-ng\\xmake-rules.lua"] = 1771412559,
+        ["xmake.lua"] = 1771775783
+    },
+    recheck = false,
+    options = {
+        skyrim_ae = true,
+        toolchain = "msvc",
+        skyrim_se = true,
+        mode = "release"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    cmdlines = {
+        "xmake f -c -y",
+        "xmake c -y",
+        "xmake f -y -m release --toolchain=msvc --skyrim_se=y --skyrim_ae=y",
+        "xmake -y -j 16"
+    }
+}

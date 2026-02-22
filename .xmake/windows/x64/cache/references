@@ -1,0 +1,7 @@
+{
+    packages = {
+        [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxmath\2024.02\b43cee1705a040bdb171c586b0ad9685]],
+        [[D:\SKSE-Codebase\.xmake\.xmake\packages\d\directxtk\24.2.0\9f8d620aace146e28fd114c01f5af23a]],
+        [[D:\SKSE-Codebase\.xmake\.xmake\packages\s\spdlog\v1.15.2\732e1fb9578844feb56212d04a5902e7]]
+    }
+}
