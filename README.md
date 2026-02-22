@@ -83,5 +83,4 @@ xmake build
 ## Credits
 Made with [CLibDT](https://www.nexusmods.com/skyrimspecialedition/mods/154240).
 
-- [CommonLibVR](https://github.com/alandtse/CommonLibVR)  
-  The SKSE library this plugin is built on
+- [CommonLibVR](https://github.com/alandtse/CommonLibVR)
