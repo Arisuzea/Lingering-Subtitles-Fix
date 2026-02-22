@@ -34,7 +34,7 @@ Data/SKSE/Plugins/LingeringSubtitlesFix.ini
 | Setting | Default | Description |
 |---|---|---|
 | `fCleanupInterval` | `0.5` | How often (in seconds) the cleanup pass runs |
-| `fStuckSubtitleTimeout` | `15.0` | How long a subtitle can linger before being force removed |
+| `fStuckSubtitleTimeout` | `25.0` | How long a subtitle can linger before being force removed |
 
 ## Compatibility
 - No ESP file, no load order impact
